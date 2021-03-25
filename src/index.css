@@ -300,9 +300,10 @@ span{
   }
 
   .about-text{
-    max-width: 1500px;
-    padding: 2rem;
-    
+    margin-left: 0rem;
+    max-width: 1000px;
+    padding-left: 0rem;
+    padding-top: 1rem;
   }
 
   .about-text h2{
@@ -310,7 +311,7 @@ span{
     max-width: 1200px;
     font-size: 2rem;
     padding-bottom: 1rem;
-    padding-right: 2rem;
+    padding-right: 0rem;
   }
 
   .about-text p{
@@ -318,11 +319,11 @@ span{
     max-width: 600px;
     line-height: 2.5rem;
     margin-left: 0rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .about-text button{
-    margin-left: 1rem;
+    margin-left: 5rem;
     margin-top: 1.5rem;
     color: #f1f1f1;
     padding: 25px 20px;
