@@ -725,7 +725,7 @@ span{
 }
 
 .footer-1{
-  width: 500px;
+  max-width: 500px;
   padding: 2rem 0rem  2rem 3rem;
   line-height: 2rem;
 }
@@ -769,7 +769,8 @@ span{
 @media screen and (max-width: 950px){
   .footer-content{
     background-color: #010c20;
-    max-width: 1200px;
+    max-width: 1500px;
+    padding-left: 3rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -777,35 +778,32 @@ span{
   }
 
   .footer-1{
-    width: 450px;
-    line-height: 1.2rem;
+    position: relative;
+    right: 6.7rem;
+  }
+
+  .footer-1 h2{
+    
   }
 
   .footer-1 p{
-    padding-top: 1rem;
-    padding-bottom: 1em;
-    color: #F0FFFE;
-    font-size: 1rem;
+   line-height: 3rem;
   }
   
   .footer-1 a{
-    color: #F0FFFE;
-    font-size: 1rem;
-    text-decoration: none;
+   
   }
 
   .footer h6{
     position: relative;
-    left: 1rem;
+    right: 10.9rem;
     width: 450px;
     color: #F0FFFE;
   }
 
-
-
   .footer-2{
     position: relative;
-    right: 8rem;
+    right: 9.5rem;
     width: 450px;
   }
   
